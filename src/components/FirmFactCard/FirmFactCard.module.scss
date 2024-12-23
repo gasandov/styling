@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  height: 322px;
+  min-width: 364px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.default {
+  &:hover {
+    background-color: #07C06A;
+  }
+}
+
+.border {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+  &:hover {
+    border: 15px solid #07C06A;
+  }
+}

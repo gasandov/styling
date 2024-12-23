@@ -1,0 +1,29 @@
+
+
+// body {
+//   font-family: Open Sans, sans-serif;
+//   background-color: $primary-color;
+//   color: white;
+//   margin: 0;
+//   padding: 0;
+//   font-size: 19px;
+//   min-width: 768px;
+//   font-weight: 600;
+//   max-width: 1680px;
+//   line-height: 24px;
+//   letter-spacing: -0.5px;
+// }
+:root {
+  --primary-color: #2D3E4E;
+  --secondary-color: #07C06A;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  // min-width: 768px;
+  // max-width: 1680px;
+  color: white;
+  background-color: var(--primary-color);
+}

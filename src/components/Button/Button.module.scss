@@ -1,0 +1,39 @@
+.button {
+  border: none;
+  height: 70px;
+  display: flex;
+  color: white;
+  cursor: pointer;
+  font-size: 19px;
+  max-height: 70px;
+  max-width: 310px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 8px 20px;
+  border-radius: 70px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  background-color: #2D3E4E;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    border: 1px solid white;
+    background-color: #07C06A;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background-color: #AAAAAA;
+  }
+}
+
+.default {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.icon {
+  text-overflow: ellipsis;
+}
